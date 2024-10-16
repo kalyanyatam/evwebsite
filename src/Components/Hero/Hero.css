@@ -1,0 +1,53 @@
+.hero {
+    margin: 0px 15px;
+    margin-top: 200px;
+    padding: 0px;
+}
+
+.hero-text {
+    color: white;
+    font-family: Tahoma, sans-serif;
+    font-size: 50px;
+    font-weight: 200;
+    line-height: 10px;
+    padding-right: 100px;
+    padding-top: 200px;
+    margin-right: 400px;
+    cursor: pointer;
+}
+
+.hero-buttons {
+    display: flex;
+    align-items: center;
+    gap: 20px; 
+    margin-top: 70px;
+}
+
+.hero-buttons p {
+    margin: 0;
+    font-size: 16px; 
+    color: black; 
+    font-family: Tahoma, sans-serif; 
+}
+
+.imagearrow {
+    background: transparent;
+    border: none;
+    padding: 10px; 
+    margin: 0;  
+}
+
+.hero-buttons img {
+    width: 40px; 
+    height: 40px;
+}
+
+.container {
+    display: flex;
+    background-color: white;
+    border-radius: 100px;
+    border: 120px; /* Adjust or remove border if needed */
+    align-items: center;
+    width: fit-content;
+    padding-left: 10px; /* Adjust padding if needed */
+}
